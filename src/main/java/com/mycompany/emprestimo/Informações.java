@@ -8,11 +8,13 @@ package com.mycompany.emprestimo;
  *
  * @author Admin
  */
+//Declarando classe publica Informações e herdando de JFrame
 public class Informações extends javax.swing.JFrame {
 
     /**
      * Creates new form Informações
      */
+    //Inicialização do método construtor
     public Informações() {
         initComponents();
     }
@@ -125,13 +127,16 @@ public class Informações extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    //Definição do método para ação do botão FECHAR
     private void fecharActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fecharActionPerformed
+        //Utilizando método dispose para fechamento da JANELA, não do programa
         this.dispose();
     }//GEN-LAST:event_fecharActionPerformed
 
     /**
      * @param args the command line arguments
      */
+    //Pacote de extensão do núcleo java
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
